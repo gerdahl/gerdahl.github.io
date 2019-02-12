@@ -153,10 +153,27 @@ header {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   h1 {
     font-weight: 500;
     font-size: 1.5rem;
+  }
+
+  .greetings img {
+    height: 0.5rem;
+  }
+
+  .site img {
+    height: 10rem;
+    outline: solid 10px #999999;
+  }
+
+  .site img:hover {
+    outline-width: 12px;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
 
