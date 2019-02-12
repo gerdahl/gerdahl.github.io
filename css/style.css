@@ -155,11 +155,11 @@ header {
 
 @media only screen and (max-width: 800px) {
   h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.5rem;
   }
 
-  .headline h1 {
+.headline h1 {
     margin: auto;
   }
 }
