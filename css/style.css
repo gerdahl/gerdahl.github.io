@@ -176,7 +176,7 @@ header {
     flex-direction: column;
   }
 
-  .desktop {
+  .desktop .topside {
     display: none;
   }
 }
