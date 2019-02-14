@@ -14,7 +14,10 @@ body {
   width: 100%;
   background: #ededed url(../resources/background.png) repeat;
   margin: 0;
+}
 
+html, body {  /* disables horizontal scrolling by hiding overflow*/
+   overflow-x: hidden;
 }
 
 .greetings, h1, h2, h3, h4 h5 {
@@ -164,12 +167,12 @@ header {
   }
 
   .site img {
-    height: 10rem;
-    outline: solid 10px #999999;
+    height: 10rem !important;
+    outline: solid 10px #999999 !important;
   }
 
   .site img:hover {
-    outline-width: 12px;
+    outline-width: 12px !important;
   }
 
   footer {
@@ -360,8 +363,8 @@ header {
 } */
 
 .site img {
-  height: 25rem;
-  margin: 2rem;
+  height: 20rem;
+  margin: 1.5rem;
   outline: solid 18px #999999; /*outline instead of border, to avoid triggering layout shuffling - https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style*/
   transition: outline-width 0.6s linear;
   transition: transform .4s; /* Animation */
