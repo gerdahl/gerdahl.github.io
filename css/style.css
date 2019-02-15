@@ -172,8 +172,8 @@ header {
   }
 
   .socmed img {
-    height: 3rem;
-    outline: none;
+    height: 3rem !important;
+    outline: none !important;
   }
 
   .site img:hover {
