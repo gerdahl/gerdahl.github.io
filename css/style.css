@@ -151,14 +151,12 @@ header {
     display:flex;
     justify-content: center;
     margin-bottom: -12rem;
+    margin-top: 2rem;
   }
 
   .mobile img {
     width: 8rem;
   }
-
-
-/*@media only screen and (max-width: 900px) { for handheld devices*/
 
   h1 {
     font-weight: 500;
@@ -166,34 +164,31 @@ header {
   }
 
   .greetings img {
-    height: 0.5rem !important;
+    height: 0.5rem;
   }
 
   .site img {
-    height: 10rem !important;
-    outline: solid 10px #999999 !important;
+    height: 10rem;
+    outline: solid 10px #999999;
   }
 
   .socmed img {
-    height: 3rem !important;
-    outline: none !important;
+    height: 3rem;
+    outline: none;
   }
 
   .site img:hover {
-    outline-width: 12px !important;
+    outline-width: 12px ;
   }
 
   footer {
-    flex-direction: column !important;
+    flex-direction: column;
   }
 
-.topside {
+  .topside {
     display: none;
   }
 
-  /*.pan .site img {
-    height: 3rem !important;
-  }*/
 }
 
 /*main******************************************************************************************/
