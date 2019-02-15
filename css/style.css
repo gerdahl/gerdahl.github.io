@@ -189,6 +189,10 @@ header {
     display: none;
   }
 
+  .pano {
+    display: none;
+  }
+
 }
 
 /*main******************************************************************************************/
@@ -266,9 +270,9 @@ header {
 
 /*portfolio-JS******************************************************************************************/
 
-/* *, *:before, *:after {
+ *, *:before, *:after { /*necessity?*/
   box-sizing: inherit;
-}  */
+}
 
 .outerpanel {
   /*display: inline-flex; */
