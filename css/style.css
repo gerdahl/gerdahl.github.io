@@ -127,6 +127,8 @@ header {
   display: none;
 }
 
+/*responsive changes***************************************************************************************/
+
 @media only screen and (max-width: 1400px) {  /* activates changes once max-width is reached*/
 
   .desktop {   /* hides desktop header */
@@ -145,7 +147,7 @@ header {
     display: none;
   }
 
-.mobile {  /*activates mobile header*/
+  .mobile {  /*activates mobile header*/
     display:flex;
     justify-content: center;
     margin-bottom: -12rem;
@@ -154,9 +156,10 @@ header {
   .mobile img {
     width: 8rem;
   }
-}
 
-@media only screen and (max-width: 900px) { /*for handheld devices*/
+
+/*@media only screen and (max-width: 900px) { for handheld devices*/
+
   h1 {
     font-weight: 500;
     font-size: 1.5rem;
@@ -188,9 +191,9 @@ header {
     display: none;
   }
 
-  .pan .site img {
+  /*.pan .site img {
     height: 3rem !important;
-  }
+  }*/
 }
 
 /*main******************************************************************************************/
