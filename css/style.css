@@ -127,7 +127,7 @@ header {
   display: none;
 }
 
-@media only screen and (max-width: 1400px) {  /* activates media query once max-width is reached*/
+@media only screen and (max-width: 1400px) {  /* activates changes once max-width is reached*/
 
   .desktop {   /* hides desktop header */
     display: none;
@@ -156,7 +156,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) { /*for handheld devices*/
   h1 {
     font-weight: 500;
     font-size: 1.5rem;
@@ -171,16 +171,25 @@ header {
     outline: solid 10px #999999 !important;
   }
 
+  .socmed img {
+    height: 3rem;
+    outline: none;
+  }
+
   .site img:hover {
     outline-width: 12px !important;
   }
 
   footer {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
 .topside {
     display: none;
+  }
+
+  .pan .site img {
+    height: 3rem !important;
   }
 }
 
