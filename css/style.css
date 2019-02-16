@@ -4,7 +4,7 @@
 html {    /*testing*/
   font-size: 16px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 200;
   scroll-behavior: smooth;
 }
@@ -21,7 +21,7 @@ html, body {  /* disables horizontal scrolling by hiding overflow*/
 }
 
 .greetings, h1, h2, h3, h4 h5 {
-  font-family: KhmerMN, sans-serif;
+  font-family: 'Nunito', sans-serif;
 
 }
 
@@ -135,15 +135,11 @@ header {
     display: none;
   }
 
-  .outerpanel {
-    margin: 0 0rem;
+  .topside {
+    display: none;
   }
 
-  #nine {
-    margin: 0 4rem 0 10rem;
-  }
-
-  .line img {
+  #pano img {
     display: none;
   }
 
@@ -154,6 +150,23 @@ header {
     margin-top: 2rem;
   }
 
+  .outerpanel {
+    margin: 0 0;
+  }
+
+  .socmed img {
+    height: 2rem !important;
+    outline: none !important;
+  }
+
+  #nine {
+    margin: 0 4rem 0 10rem;
+  }
+
+  .line img {
+    display: none;
+  }
+
   .mobile img {
     width: 8rem;
   }
@@ -161,36 +174,34 @@ header {
   h1 {
     font-weight: 500;
     font-size: 1.5rem;
+    padding: .5rem 0;
+  }
+
+  #color h2 {
+    font-size: 1rem !important;
   }
 
   .greetings img {
-    height: 0.5rem;
+    height: 0.5rem !important;
   }
 
   .site img {
-    height: 10rem;
-    outline: solid 10px #999999;
-  }
-
-  .socmed img {
-    height: 3rem;
-    outline: none;
+    height: 10rem !important;
+    outline: solid 10px #999999 !important;
   }
 
   .site img:hover {
-    outline-width: 12px ;
+    outline-width: 12px !important;
   }
 
   footer {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
-  .topside {
-    display: none;
-  }
-
-  .pano img {
-    display: none;
+  footer h5 {
+    text-align: center;
+    font-size: 1rem;
+    margin: .5rem 0;
   }
 
 }
@@ -236,6 +247,7 @@ header {
 .headline h1 {
   opacity: 0.8;
   line-height: normal;
+  margin: .5rem 0;
 }
 
 .greetings {
@@ -260,7 +272,7 @@ header {
 
 #color h3, h4 {
   color: #993333;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .line img {
@@ -270,9 +282,9 @@ header {
 
 /*portfolio-JS******************************************************************************************/
 
- *, *:before, *:after { /*necessity?*/
+ /* *, *:before, *:after { /*necessity?*/
   box-sizing: inherit;
-}
+} */
 
 .outerpanel {
   /*display: inline-flex; */
@@ -327,7 +339,7 @@ header {
 .panel.open-active > *:last-child { transform: translateY(0); }
 .panel p {
   text-transform: uppercase;
-  font-family: 'KhmerMN';
+  font-family: 'Nunito', sans-serif;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
   font-size: 2em;
   color: #CC3333;
