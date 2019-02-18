@@ -139,6 +139,10 @@ header {
     display: none;
   }
 
+  .panels {
+    min-height: 40vh;
+  }
+
   #pano img {
     display: none;
   }
@@ -282,7 +286,7 @@ header {
 
 /*portfolio-JS******************************************************************************************/
 
- /* *, *:before, *:after { /*necessity?*/
+ /* *, *:before, *:after { necessity?
   box-sizing: inherit;
 } */
 
