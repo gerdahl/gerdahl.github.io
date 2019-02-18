@@ -295,7 +295,7 @@ header {
 }
 
 .panels {
-  min-height: 80vh;
+  min-height: 60vh;
   overflow: hidden;
   display: flex;
 }
