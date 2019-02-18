@@ -288,7 +288,7 @@ header {
 } */
 
 .outerpanel {
-  display: inline-flex; 
+  display: inline-flex;
   margin: 0 8rem;
   width: auto;
   justify-content: center;
@@ -382,10 +382,6 @@ header {
   padding: 2rem 0;
 }
 
-/*.backing {
-  width: 70%;
-} */
-
 .site img {
   height: 20rem;
   margin: 1.5rem;
@@ -436,10 +432,6 @@ header {
 .contact {
   margin: 2rem 0;
 }
-
-/*.contact .backing {
-  display: flex;
-} */
 
 .contact .site {
   flex-direction: column;
