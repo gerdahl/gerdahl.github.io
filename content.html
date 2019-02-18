@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Content</title>
+
+
+
+    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/menustyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="9elements portfolio Geoffrey Erdahl Geof">
+
+    <script src="js/jquery-3.3.1.min.js"></script> <!--latest library-->
+
+  </head>
+
+  <body>
+
+
+    <header>
+
+    <div class="topside">
+
+      <div class="desktop">
+
+          <ul>
+
+            <div class="rt"><li><a href="#"><h2><span>H</span>OME</h2></a></li></div>
+            <img src="resources/Portfolio_icon.png" alt="Portfolio" style="height: 1rem;">
+            <div class="rt"><li><a href="#part1"><h2><span>P</span>ORTFOLIO</h2></a></li></div>
+            <img src="resources/content_icon.png" alt="Content" style="height: 1rem;">
+            <div class="emp"><li><a href="#part2"><h2><span>C</span>ONTENT</h2></a></li></div>
+          </ul>
+
+          <div id="element">
+            <img src="resources/9e-logo.png">
+          </div>
+
+        <ul>
+          <img src="resources/About_icon.png" alt="About" style="height: 1rem;">
+          <div class="rt"><li><a href="#part3"><h2><span>A</span>BOUT</h2></a></li></div>
+          <img src="resources/mail_icon_II.png" alt="Contact" style="height: 1rem;">
+          <div class="rt"><li><a href="#part4"><h2><span>C</span>ONTACT</h2></a></li></div>
+          <img src="resources/Projects_icon.png" alt="Resume" style="height: 1rem;">
+          <div class="emp"><li><a href="resources/GERDAHL-Resume-2019.jpg" target="_blank"><h2><span>R</span>ESUME</h2></a></li></div>
+        </ul>
+      </div>
+    </div>
+
+      <!-- mobile menu ------------------------------------------------------------------------------->
+
+    <div class="mobile">
+
+      <div id="nine">
+        <div class="tooltip"><img src="resources/9e-logo-sm.png" alt="9elements image"><span class="tooltiptext">9 elements</span>
+        </div>
+      </div>
+
+        <!--    Made by Erik Terwan   https://codepen.io/erikterwan/pen/EVzeRP -->
+
+        <nav role="navigation">
+          <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="#"><li>Home</li></a>
+              <a href="#part1"><li>Portfolio</li></a>
+              <a href="#part2"><li>Content</li></a>
+              <a href="#part3"><li>About</li></a>
+              <a href="#part4"><li>Contact</li></a>
+              <a href="resources/GERDAHL-Resume-2019.jpg" target="_blank"><li>Resume</li></a>
+            </ul>
+          </div>
+        </nav>
+
+
+
+    </div>
+
+  </header> <!-- close header ------------------------------------------------------------------------------>
+
+  <div class="main">
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    <script src="js/content.js"></script>  <!-- content animation with JavaScript -->
+
+  </div>
+
+</body>
+
+</html>
