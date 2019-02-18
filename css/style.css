@@ -139,10 +139,6 @@ header {
     display: none;
   }
 
-  .panel {
-    min-height: 40vh;
-  }
-
   #pano img {
     display: none;
   }
@@ -156,6 +152,7 @@ header {
 
   .outerpanel {
     margin: 0 0;
+    min-height: 40vh;
   }
 
   .socmed img {
@@ -291,7 +288,7 @@ header {
 } */
 
 .outerpanel {
-  /*display: inline-flex; */
+  display: inline-flex; 
   margin: 0 8rem;
   width: auto;
   justify-content: center;
