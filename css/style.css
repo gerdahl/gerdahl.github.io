@@ -452,6 +452,7 @@ header {
 .socmed img {
   height: 4rem;
   outline: none; /* no outline(border) animation*/
+  margin: 2rem;
 }
 
 .email h3:hover {
