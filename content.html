@@ -8,17 +8,18 @@
 
     <link href="css/reset.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/content.css" type="text/css" rel="stylesheet">
     <link href="css/menustyle.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="9elements portfolio Geoffrey Erdahl Geof">
+    <link rel="shortcut icon" href="resources/9e_logo_Favicon.ico" type="image/x-icon">
 
     <script src="js/jquery-3.3.1.min.js"></script> <!--latest library-->
 
   </head>
 
   <body>
-
 
     <header>
 
@@ -28,7 +29,7 @@
 
           <ul>
 
-            <div class="rt"><li><a href="#"><h2><span>H</span>OME</h2></a></li></div>
+            <div class="rt"><li><a href="index.html"><h2><span>H</span>OME</h2></a></li></div>
             <img src="resources/Portfolio_icon.png" alt="Portfolio" style="height: 1rem;">
             <div class="rt"><li><a href="#part1"><h2><span>P</span>ORTFOLIO</h2></a></li></div>
             <img src="resources/content_icon.png" alt="Content" style="height: 1rem;">
@@ -81,23 +82,21 @@
             but hey, it's pure CSS magic.
             -->
             <ul id="menu">
-              <a href="#"><li>Home</li></a>
-              <a href="#part1"><li>Portfolio</li></a>
-              <a href="#part2"><li>Content</li></a>
-              <a href="#part3"><li>About</li></a>
-              <a href="#part4"><li>Contact</li></a>
+              <a href="index.html"><li>Home</li></a>
+              <a href="index.html/#part1"><li>Portfolio</li></a>
+              <a href="index.html/#part2"><li>Content</li></a>
+              <a href="index.html/#part3"><li>About</li></a>
+              <a href="index.html/#part4"><li>Contact</li></a>
               <a href="resources/GERDAHL-Resume-2019.jpg" target="_blank"><li>Resume</li></a>
             </ul>
           </div>
         </nav>
 
-
-
     </div>
 
   </header> <!-- close header ------------------------------------------------------------------------------>
 
-  <div class="main">
+  <div class="gallery">
 
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -166,10 +165,17 @@
 
 </div>
 
-
     <script src="js/content.js"></script>  <!-- content animation with JavaScript -->
 
-  </div>
+  </div> <!-- closes main ------------------------------------------------------------------------------>
+
+  <footer>
+    <a href="#"><img src="resources/9e-logo.png" alt=""></a>
+    <h5>Copyright &copy; 2018 9elements, All Rights Reserved</h5>
+    <h5>Designed in Denver</h5>
+  </footer>
+
+
 
 </body>
 

@@ -1,0 +1,5 @@
+
+.gallery {    /*gallery class exists in style.css as well, these are specific to the content page */
+  min-height: 40vh;
+  margin: 5rem;
+}
