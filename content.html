@@ -4,19 +4,20 @@
     <meta charset="utf-8">
     <title>9elements Content</title>
 
-
-
     <link href="css/reset.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/content.css" type="text/css" rel="stylesheet">
     <link href="css/menustyle.css" type="text/css" rel="stylesheet">
+    <link href="node_modules/lightgallery.js/dist/css/lightgallery.min.css" type="text/css" rel="stylesheet">
+    <link href="css/content.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="9elements ninelements content Geoffrey Erdahl Geof">
     <link rel="shortcut icon" href="resources/9e-logo-sml-fav.png" type="image/x-icon">
 
+    <!--<script src="js/lightgallery.js"></script>-->
     <script src="js/jquery-3.3.1.min.js"></script> <!--latest library-->
 
+    <!-- Google analytics tracking ID -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134857446-1"></script>
     <script>
@@ -26,8 +27,6 @@
 
       gtag('config', 'UA-134857446-1');
     </script>
-
-    <!-- Google analytics tracking ID -->
 
   </head>
 
@@ -111,12 +110,18 @@
 
 <div class="photos">
 
-  <div class="sliderjs">
-    <img src="resources/G-K-Europe.jpg" alt="">
-  </div>
+  <div id="lightgallery">
+    <a href="resources/HOH.jpg">
+        <img src="resources/HOH.jpg">
+    </a>
+    <a href="resources/HOH.jpg">
+        <img src="resources/HOH.jpg">
+    </a>
+
+</div>
 
 
-</div> <!-- close photos slider ------------------------------------------------------------------------------>
+</div> <!-- close photos ------------------------------------------------------------------------------>
 
 
   <footer>
@@ -125,7 +130,20 @@
     <h5>Designed in Denver</h5>
   </footer>
 
+<!-- close footer ------------------------------------------------------------------------------>
 
+  <script src="js/lightgallery.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="js/lg-fullscreen.min.js"></script>
+
+    <!-- initiate the gallery ---------->
+  <script>
+    lightGallery(document.getElementById('lightgallery'));
+  </script>
+
+<!-- close lightbox script ------------------------------------------------------------------------------>
 
 </body>
 
