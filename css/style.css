@@ -298,7 +298,7 @@ header {
   min-height: 60vh;
   overflow: hidden;
   display: flex;
-  margin: 0 4rem;
+  /*margin: 0 4rem;*/
 }
 .panel {
   background: #6B0F9C;
