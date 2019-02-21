@@ -6,3 +6,8 @@
   justify-content: center;
   background-color: blue;
 }
+
+.photos img {
+  width: 12rem;
+  height: auto;
+}
