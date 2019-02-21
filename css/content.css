@@ -1,13 +1,11 @@
 
 .photos {
   display: flex;
-  height: 8rem;
-  text-align: center;
   justify-content: center;
   background-color: blue;
 }
 
 .photos img {
-  width: 12rem;
+  width: 30%;
   height: auto;
 }
