@@ -178,6 +178,10 @@ header {
     padding: .5rem 0;
   }
 
+  .links {
+    flex-direction: column !important;
+  }
+
   #color h2 {
     font-size: 1rem !important;
   }
@@ -320,10 +324,10 @@ header {
   display: flex;
   flex-direction: column;
 }
-.panel1 { background-image:url(../resources/Church_Barcelona-2017.jpg); }  /*1500 x1500 not working*/
+.panel1 { background-image:url(../resources/Photos/Church_Barcelona-2017.jpg); }  /*1500 x1500 not working*/
 .panel2 { background-image:url(../resources/Whodunnit-Bee.jpg); }
 .panel3 { background-image:url(../resources/HOH.jpg); }
-.panel4 { background-image:url(../resources/Greta-pose.jpg); }
+.panel4 { background-image:url(../resources/Photos/Greta-pose.jpg); }
 .panel5 { background-image:url(../resources/Foolish-Men.png); }
 /* Flex Items */
 .panel > * {
@@ -401,6 +405,27 @@ header {
 }
 
 /*content******************************************************************************************/
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 20%;
+}
+
+.links a {
+  margin: 1rem 2rem;
+  width: 20%;
+  flex-shrink: 1;
+}
+
+.links h3 {
+  background-color: black;
+  padding: 1rem;
+  line-height: 1;
+  color: white;
+  border-radius: 0.5rem;
+}
 
 .content {
   margin: 2rem 0;
