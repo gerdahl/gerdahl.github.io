@@ -389,6 +389,7 @@ header {
   outline: solid 18px #999999; /*outline instead of border, to avoid triggering layout shuffling - https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style*/
   transition: outline-width 0.6s linear;
   transition: transform .4s; /* Animation */
+  box-shadow: 19px 20px 11px 9pt #0e0e0e;
 
 }
 
