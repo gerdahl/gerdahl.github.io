@@ -226,8 +226,8 @@ header {
 }
 
 .title li {
-  width: 8rem;
-  margin: 0.5rem 1rem 0 0;
+  /*width: 8rem;*/
+  margin: 0 1rem 0 0;
   text-align: right;
 }
 

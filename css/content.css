@@ -10,3 +10,10 @@
   width: 20%;
   height: auto;
 }
+
+.title {
+  margin-top: 2rem !important;
+}
+ .title li {
+   margin: none !important;
+ }
