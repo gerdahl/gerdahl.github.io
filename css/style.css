@@ -407,7 +407,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 30%;
+  margin: 0 20%;
 }
 
 .links a {
