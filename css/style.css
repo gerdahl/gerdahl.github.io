@@ -410,8 +410,8 @@ header {
 }
 
 .links a {
-  margin: 1rem 2rem;
-  width: 20%;
+  /*margin: 1rem 2rem;
+  width: 20%;*/
   flex-shrink: 1;
 }
 
