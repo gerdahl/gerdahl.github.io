@@ -205,6 +205,12 @@ header {
     margin: .5rem 0;
   }
 
+  .backing .words {
+    height: 20rem;
+    width: auto !important;
+
+  }
+
 }
 
 /*main******************************************************************************************/
@@ -493,7 +499,9 @@ header {
 }
 
 .backing .words {
+  height: 30rem;
   width: 30rem;
+
 }
 
 .words {
