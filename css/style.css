@@ -390,7 +390,6 @@ header {
   transition: outline-width 0.6s linear;
   transition: transform .4s; /* Animation */
   box-shadow: 19px 20px 11px 6pt #0e0e0e;
-
 }
 
 .site img:hover {
