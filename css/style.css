@@ -385,7 +385,7 @@ header {
 
 .site img {
   height: 20rem;
-  margin: 1.5rem;
+  margin: 2rem;
   outline: solid 18px #999999; /*outline instead of border, to avoid triggering layout shuffling - https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style*/
   transition: outline-width 0.6s linear;
   transition: transform .4s; /* Animation */
@@ -493,7 +493,7 @@ header {
 }
 
 .backing .words {
-  width: 20rem;
+  width: 30rem;
 }
 
 .words {
