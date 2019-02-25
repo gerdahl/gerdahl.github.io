@@ -150,6 +150,8 @@ header {
     margin-top: 2rem;
   }
 
+  /*in cases where !important is used, address with specificity -  .site .socmed img ? */
+
   .outerpanel {
     margin: 0 0;
     min-height: 40vh;
